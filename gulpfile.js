@@ -29,3 +29,4 @@ gulp.task('jscs', function () {
 });
 
 gulp.task('check', ['jshint', 'jscs']);
+gulp.task('default', ['check']);
