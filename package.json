@@ -1,0 +1,26 @@
+{
+  "name": "api-compare",
+  "version": "0.0.1",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "./node_modules/babel/bin/babel-node ./node_modules/mocha/bin/_mocha tests"
+  },
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "babel": "^4.7.12",
+    "chai": "^2.1.1",
+    "lodash": "^3.5.0",
+    "mocha": "^2.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-jscs": "^1.4.0",
+    "gulp-jshint": "^1.9.2",
+    "gulp-load-plugins": "^0.8.1",
+    "jscs": "^1.11.3",
+    "jshint": "^2.6.3",
+    "jshint-stylish": "^1.0.1"
+  }
+}
